@@ -79,7 +79,7 @@ public class Util {
             Process child = Runtime.getRuntime().exec(command);
         } catch (IOException ex) {
             Logger.getLogger(Util.class.getName()).log(Level.SEVERE, null, ex);
-            showErrorBox("CGS failed to load,\n Please contact your vendor.\n \nErrNo:A13");
+            showErrorBox("CGS failed to load,\n Please contact your vendor.\n \nErrNo:CLF1");
             System.exit(1);
         }
     }
